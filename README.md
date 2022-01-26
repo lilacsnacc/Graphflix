@@ -73,4 +73,6 @@ Given more time, I would...
 
 - Add testing to the graphql-api and the react components. Testing is super important to me! I mean, even if it's just demo code, it's always nice to see that 100% green affirmation
 
+- Clean up the imports. On build, tree-shaking should take care of it. But still, I like to have a clean environment.
+
 Well, that concludes that. I hope I was able to demonstrate an understanding of backend and frontend, and the ability to pick up new technologies. Thank you for your time!
