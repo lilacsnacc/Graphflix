@@ -2,13 +2,14 @@ const RestAPI = require('./rest-api');
 const GraphQLAPI = require('./graphql-api');
 const axios = require('axios');
 
+// Avoid type nullability by using exclamation !  
 const graphQLTypeDefinitionss =`
 type Title {
-  title: String
-  thumbnail: String
+  title: String!
+  thumbnail: String!
 }
 type Query {
-  getTitles: [Title]
+  getTitles: [Title!]!
 }`;
 
 const graphqlResolvers = {
